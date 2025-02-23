@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOSTRA</title>
+    <!---my css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!---font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!---navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;">
+            <i class="fa-solid fa-xmark" onclick="closenavbar()"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+
+    <!--product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="product">
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.IcqFMh54wjFyZIQG_pCdzAHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3"
+                    alt="">
+                <p>Dark Blue T-shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.q6bBH5G36dgt-WruNBcLlgAAAA?pid=ImgDet&w=150&h=150&c=7&dpr=1.3"
+                    alt="">
+                <p>Gray T-shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.qjcXQI2B6ohf9ktk0Jq28gAAAA?w=143&h=150&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="">
+                <p>Light Blue T-shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.vHPnikSTsojXQS3pIboNgwAAAA?pid=ImgDet&w=184&h=184&c=7&dpr=1.3"
+                    alt="">
+                <p>Black T-shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.GlPoYhkUNl07HNeJ0dIquQHaJ4?w=208&h=277&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="">
+                <p>White Shirt</p>
+            </div>
+
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.mAy17dbxvhK1lKpQDTK8TAHaJ4?w=208&h=277&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="">
+                <p>Dark Navy Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.29fRAbNbfMQ_fhWkQkCHbgHaJ4?w=208&h=277&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="">
+                <p>Black Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.N01rQs1juQtNmK7eNRW_eQHaJ4?w=208&h=277&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="">
+                <p>Dark Blue Jeans Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.sdePjZ3q8K5L5_xLkU6LhAHaJ4?w=208&h=277&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="">
+                <p>SkyBlue Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.N9R2XcmH1y7OKGH5pDzeMwHaKT?w=208&h=290&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="">
+                <p>Dark Blue Jeans Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.grcaEIlfXJQHEBayIMobvwHaLk?w=200&h=312&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="">
+                <p>Light Blue Jeans Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.JXt6x29m7Z7dtzYio-gpPgHaJ4?w=208&h=277&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="">
+                <p>Dark Black Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.Xk_loYB0y_vn_yFVxyj0kQHaJ3?w=208&h=277&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="">
+                <p>Dark Black Jeans Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.1u2GAxETCSLju-dLCoqdrAHaJ4?w=208&h=277&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="">
+                <p>Box Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.X-CJNpoR-gX4sp5nDoZ6QAHaJ4?w=208&h=277&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="">
+                <p>Double Model Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.js5vfVnOYC405FzKRr_J8wHaJ4?w=208&h=277&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="">
+                <p>White Shirt</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--footer section-->.
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="heading text">NOSTRA</h2>
+                <p>explore the wonderful experience of our nostra shopping world!!!</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2025 Nostra.com</p>
+    </div>
+</body>
+<script src="collection.js"></script>
+
+</html>
